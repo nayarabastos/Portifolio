@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nayara Porto">
+    <meta name="robots" content="Portfólio Pessoal da Nayara Porto, 
+                desenvolvedor Full Stack especializado em criar experiências 
+                digitais incríveis. Conheça meus projetos e entre em contato.">
+    <meta name="robots" content="index, follow">
+
+    <link rel="rel" type="image/svg+xml" href="assets/img/favicon.svg">
+
+
+    <title>Portifólio da Nayara</title>
+</head>
+
+<body>
+    <!-- Cabeçalho da página -->
+    <header>
+        <div class="menu-content">
+            <!-- Título do Cabeçalho -->
+            <a href="index.html" id="titulo">Portfólio</a>
+
+            <!-- Menu de Navegação -->
+            <nav>
+                <ul class="menu-list">
+                    <li><a href="#hero">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Principal da Página -->
+    <main>
+        <section id="hero" class="section-container hero-container">
+
+            <!-- Boas Vindas -->
+            <article>
+                <span>👋 Olá, eu sou a Nayara</span>
+                <h1>Desenvolvedora Full Stack</h1>
+                <p>Transformando ideias em experiências digitais incríveis.</p>
+
+                <div class="buttons-container">
+                    <a href="#contact" class="botao">Entre em contato</a>
+                    <a href="#about" class="botao-outline">Saiba mais...</a>
+                </div>
+
+            </article>
+
+            <!-- imagem da Seção Hero -->
+            <figure class="hero-image">
+                <img src="assets/img/foto_dev_woman.svg" alt="Foto do autor do site" class="float-animation"
+                    width="300px">
+            </figure>
+        </section>
+
+        <!-- Seção Sobre Mim -->
+        <section id="about" class="section-container about-container">
+
+            <!-- Imagem da Seção Sobre -->
+            <figure class="about-image">
+                <img src="assets/img/avatar_dev_woman.svg" alt="Foto - Perfil do autor do site" width="300px">
+            </figure>
+
+            <!-- Conteúdo da Seção Sobre -->
+            <article class="about-content">
+                <h2>Sobre Mim</h2>
+                <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua
+                </p>
+                <p>Mussum Ipsum, cacilds vidis litro abertis. Quem num gosta di mim que vai caçá sua turmis! Interagi no
+                    mé, cursus quis, vehicula ac nisi. Praesent vel viverra nisi. Mauris aliquet nunc non turpis
+                    scelerisque, eget. Suco de cevadiss deixa as pessoas mais interessantis.</p>
+
+                <!-- Links (GitHub + Cúrriculo) -->
+                <div class="about-button-data">
+
+                    <!-- Links -->
+                    <div class="buttons-container">
+                        <a href="#" target="_blank" class="botao">GitHub</a>
+                        <a href="#" target="_blank" class="botao-outline">Currículo</a>
+                    </div>
+
+                    <!-- Dados - repositório GitHub -->
+                    <div class="data-container">
+
+                        <!-- Número de Seguidores -->
+                        <div class="data-item">
+                            <span class="data-number">100+</span>
+                            <p class="data-label">Seguidores</p>
+                        </div>
+
+                        <!-- Número de Repositórios Públicos -->
+                        <div class="data-item">
+                            <span class="data-number">10</span>
+                            <p class="data-label">Repositórios Públicos</p>
+                        </div>
+
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section id="projects">
+            <h2>Meus Projetos</h2>
+
+            <!-- Swiper Container -->
+            <div class="swiper projects-swiper">
+                <div class="swiper-wrapper">
+
+                    <figure class="swiper-slide">
+
+                        <article class="project-card">
+
+                            <!-- Ícone da Tecnologia padrão do projeto -->
+                            <figure class="project-image">
+                                <img src="./assets/icons/languages/github.svg" alt="Ícone do GitHub" width="100px">
+                            </figure>
+
+                            <!-- Conteúdo do Projeto -->
+                            <div class="project-content">
+
+                                <h3>Projeto GitHub</h3>
+                                <p>Projeto desenvolvido no GitHub</p>
+
+                                <!-- Tags do Projeto -->
+                                <div class="project-tags">
+                                    <span class="tag">GitHub</span>
+                                </div>
+
+                                <!-- Links do Projeto -->
+                                <div class="project-buttons">
+                                    <a href="#" target="_blank" class="botao botao-sm">
+                                        GitHub
+                                    </a>
+                                    <a href="#" target="_blank" class="botao-outline botao-sm">
+                                        Deploy
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                </div>
+
+            </div>
+
+            <!-- Botões de Navegação -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+            <!-- Paginação -->
+            <div class="swiper-pagination"></div>
+
+            </div>
+        </section>
+
+        <section id="contact" class="section-container contact-container">
+            
+            <!-- Redes Sociais -->
+            <article>
+                <h2>Entre em Contato</h2>
+                <p>Se você deseja entrar em contato comigo, preencha o formulário abaixo e eu responderei o mais breve possível.</p>
+
+                <!-- Links para Redes Sociais -->
+                 <div class="social-container">
+                    <a href="" target="_blank">
+                        <img src="./assets/icons/social/linkedin.svg" alt="Link para o LinkedIn">img
+                    </a>
+                    <a href="" target="_blank">
+                        <img src="./assets/icons/social/github.svg" alt="Link para o GitHub">img
+                    </a>
+                 </div>
+            </article>
+                <!-- Formulário de Contato -->
+                <form id="formulario">
+                    
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" required placeholder="Digite seu nome completo">
+                    <span id="nome-error"></span>
+                    <br>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="Digite o seu e-mail">
+                    <span id="erro-email"></span>
+                    <br>
+                    <label for="assunto">Assunto</label>
+                    <input type="text" id="assunto" name="assunto" required placeholder="Digite o assunto da mensagem">
+                    <span id="erro-assunto"></span>
+                    <br>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" required placeholder="Digite a sua mensagem"></textarea>
+                    <span id="erro-mensagem"></span>
+                    <br>
+                    <button type="submit" class="botao">Enviar Mensagem</button>
+
+                </form>
+            
+        </section>
+        
+    </main>
+
+    <!-- Rodapé da página -->
+    <footer>
+        Desenvolvido por Nayara Porto &copy; 2026. Todos os direitos reservados.
+    </footer>
+
+</body>
+
+</html>
