@@ -64,8 +64,7 @@
 
             <!-- imagem da Seção Hero -->
             <figure class="hero-image">
-                <img src="assets/img/foto_dev_woman.svg" alt="Foto do autor do site" class="float-animation"
-                    width="300px">
+                <img src="assets/img/foto_dev_woman.svg" alt="Foto do autor do site" class="float-animation">
             </figure>
         </section>
 
@@ -74,7 +73,7 @@
 
             <!-- Imagem da Seção Sobre -->
             <figure class="about-image">
-                <img src="assets/img/avatar_dev_woman.svg" alt="Foto - Perfil do autor do site" width="300px">
+                <img src="assets/img/avatar_dev_woman.svg" alt="Foto - Perfil do autor do site" >
             </figure>
 
             <!-- Conteúdo da Seção Sobre -->
@@ -116,7 +115,7 @@
             </article>
         </section>
 
-        <section id="projects">
+        <section id="projects" class="section-container projects-container">
             <h2>Meus Projetos</h2>
 
             <!-- Swiper Container -->
@@ -129,7 +128,7 @@
 
                             <!-- Ícone da Tecnologia padrão do projeto -->
                             <figure class="project-image">
-                                <img src="./assets/icons/languages/github.svg" alt="Ícone do GitHub" width="100px">
+                                <img src="./assets/icons/languages/github.svg" alt="Ícone do GitHub">
                             </figure>
 
                             <!-- Conteúdo do Projeto -->
@@ -183,10 +182,10 @@
 
                 <!-- Links para Redes Sociais -->
                 <div class="social-container">
-                    <a href="https://www.linkedin.com/in/nayarabastos" target="_blank">
+                    <a href="https://www.linkedin.com/in/nayara-bastos-porto/" target="_blank" class="social-icon">
                         <img src="./assets/icons/social/linkedin.svg" alt="Link para o LinkedIn">
                     </a>
-                    <a href="https://github.com/nayarabastos" target="_blank">
+                    <a href="https://github.com/nayarabastos" target="_blank" class="social-icon">
                         <img src="./assets/icons/social/github.svg" alt="Link para o GitHub">
                     </a>
                 </div>
@@ -197,23 +196,23 @@
                 <label for="nome">Nome</label>
                 <input type="text" id="nome" name="nome" required placeholder="Digite seu nome completo">
                 <span id="nome-error"></span>
-                <br>
+                
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" required placeholder="Digite o seu e-mail">
                 <span id="erro-email"></span>
-                <br>
+                
                 <label for="assunto">Assunto</label>
                 <input type="text" id="assunto" name="assunto" required placeholder="Digite o assunto da mensagem">
                 <span id="erro-assunto"></span>
-                <br>
+                
                 <label for="mensagem">Mensagem</label>
                 <textarea id="mensagem" name="mensagem" required placeholder="Digite a sua mensagem"></textarea>
                 <span id="erro-mensagem"></span>
-                <br>
+                
                 <button type="submit" class="botao">Enviar Mensagem</button>
 
             </form>
-
+            
         </section>
 
     </main>
